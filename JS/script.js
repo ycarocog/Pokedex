@@ -49,7 +49,7 @@ search.addEventListener('submit', (event) =>{
 renderPokemon(searchPokemon)
 
 prev.addEventListener('click', ()=>{
-    if (search > 1){
+    if (searchPokemon > 1){
         searchPokemon -=1
         renderPokemon(searchPokemon)
     }
